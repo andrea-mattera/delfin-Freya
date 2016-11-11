@@ -1,0 +1,464 @@
+#---EXFOR Request #1880
+#---EXFOR Standard Output---
+#=============================================================================
+#DATASET        33035002 
+#NOW            2016/08/26:09:39:59
+#SUBENT         33035002   20110609
+#ENTRY          33035      20110609
+#AUTHOR1        M.S.Samant+
+#YEAR           1993
+#X4REF1         J,PRM,40,(4),299,1993
+#REFERENCE1     Jour: Pramana, Vol.40, Issue.4, p.299 (1993)
+#REACTION       92-U-235(N,F)MASS,PR,NU,,MSC
+#D4REAC         R0#
+#C4Reaction     (N,F)MASS,PR,NU,,MSC
+#ReactionType   NU
+#Quantity       Prompt neutron yield (nu-bar)
+#IndVarFamCode  [0 2    7   ]
+#ExpectedUnits  [PART/FIS]
+#xVariables     2
+#+              Y = Y(X1,X2)
+#COLUMNS        6
+#HEADER         7           6           12
+!DATA        DATA-ERR    ERR-DIG     EN-DUMMY    MASS-MIN    MASS-MAX    
+!PRT/FIS     PRT/FIS     PRT/FIS     EV          NO-DIM      NO-DIM      
+!Y.Value     Y.Err+-     Y.pErr+-    X1.Value    X2.Min      X2.Max      
+!0.1         0.911       0.955       1.1         2.2         2.3         
+!variable    variable    const       const       variable    variable    
+!1.0         1.0         1.0         1.0         1.0         1.0         
+!PART/FIS    PART/FIS    PART/FIS    EV          NO-DIM      NO-DIM      
+#DATA           104         6           12
+ 1.82        0.16        0.01        0.0253      86.         87.         
+ 1.68        0.11        0.01        0.0253      86.         87.         
+ 1.34        0.11        0.01        0.0253      86.         87.         
+ 1.2         0.11        0.01        0.0253      86.         87.         
+ 1.04        0.16        0.01        0.0253      86.         87.         
+ 0.86        0.23        0.01        0.0253      86.         87.         
+ 1.84        0.3         0.01        0.0253      90.         91.         
+ 1.88        0.23        0.01        0.0253      90.         91.         
+ 1.82        0.15        0.01        0.0253      90.         91.         
+ 1.61        0.11        0.01        0.0253      90.         91.         
+ 1.46        0.13        0.01        0.0253      90.         91.         
+ 1.27        0.11        0.01        0.0253      90.         91.         
+ 0.94        0.24        0.01        0.0253      90.         91.         
+ 0.66        0.21        0.01        0.0253      90.         91.         
+ 2.36        0.14        0.01        0.0253      94.         95.         
+ 2.44        0.16        0.01        0.0253      94.         95.         
+ 2.26        0.18        0.01        0.0253      94.         95.         
+ 2.06        0.1         0.01        0.0253      94.         95.         
+ 1.87        0.14        0.01        0.0253      94.         95.         
+ 1.65        0.14        0.01        0.0253      94.         95.         
+ 1.37        0.12        0.01        0.0253      94.         95.         
+ 1.05        0.14        0.01        0.0253      94.         95.         
+ 0.63        0.14        0.01        0.0253      94.         95.         
+ 2.6         0.11        0.01        0.0253      98.         99.         
+ 2.42        0.11        0.01        0.0253      98.         99.         
+ 2.29        0.11        0.01        0.0253      98.         99.         
+ 2.07        0.13        0.01        0.0253      98.         99.         
+ 1.86        0.09        0.01        0.0253      98.         99.         
+ 1.66        0.11        0.01        0.0253      98.         99.         
+ 1.39        0.13        0.01        0.0253      98.         99.         
+ 1.14        0.13        0.01        0.0253      98.         99.         
+ 0.9         0.11        0.01        0.0253      98.         99.         
+ 0.65        0.13        0.01        0.0253      98.         99.         
+ 2.61        0.21        0.01        0.0253      102.        103.        
+ 2.59        0.14        0.01        0.0253      102.        103.        
+ 2.45        0.11        0.01        0.0253      102.        103.        
+ 2.25        0.12        0.01        0.0253      102.        103.        
+ 2.07        0.12        0.01        0.0253      102.        103.        
+ 1.82        0.12        0.01        0.0253      102.        103.        
+ 1.52        0.12        0.01        0.0253      102.        103.        
+ 1.33        0.12        0.01        0.0253      102.        103.        
+ 1.08        0.14        0.01        0.0253      102.        103.        
+ 0.81        0.14        0.01        0.0253      102.        103.        
+ 2.36        0.14        0.01        0.0253      106.        107.        
+ 2.44        0.16        0.01        0.0253      106.        107.        
+ 2.26        0.18        0.01        0.0253      106.        107.        
+ 2.06        0.1         0.01        0.0253      106.        107.        
+ 1.87        0.14        0.01        0.0253      106.        107.        
+ 1.65        0.14        0.01        0.0253      106.        107.        
+ 1.37        0.12        0.01        0.0253      106.        107.        
+ 1.05        0.14        0.01        0.0253      106.        107.        
+ 0.63        0.14        0.01        0.0253      106.        107.        
+ 1.21        0.23        0.01        0.0253      130.        131.        
+ 1.19        0.23        0.01        0.0253      130.        131.        
+ 1.26        0.25        0.01        0.0253      130.        131.        
+ 1.01        0.18        0.01        0.0253      130.        131.        
+ 0.91        0.14        0.01        0.0253      130.        131.        
+ 0.62        0.2         0.01        0.0253      130.        131.        
+ 0.53        0.12        0.01        0.0253      130.        131.        
+ 0.41        0.12        0.01        0.0253      130.        131.        
+ 0.35        0.12        0.01        0.0253      130.        131.        
+ 0.27        0.11        0.01        0.0253      130.        131.        
+ 1.56        0.16        0.01        0.0253      134.        135.        
+ 1.36        0.14        0.01        0.0253      134.        135.        
+ 1.31        0.14        0.01        0.0253      134.        135.        
+ 1.19        0.12        0.01        0.0253      134.        135.        
+ 1.1         0.11        0.01        0.0253      134.        135.        
+ 0.94        0.11        0.01        0.0253      134.        135.        
+ 0.8         0.12        0.01        0.0253      134.        135.        
+ 0.71        0.12        0.01        0.0253      134.        135.        
+ 0.61        0.11        0.01        0.0253      134.        135.        
+ 0.56        0.11        0.01        0.0253      134.        135.        
+ 1.73        0.12        0.01        0.0253      138.        139.        
+ 1.52        0.12        0.01        0.0253      138.        139.        
+ 1.38        0.1         0.01        0.0253      138.        139.        
+ 1.22        0.1         0.01        0.0253      138.        139.        
+ 1.11        0.09        0.01        0.0253      138.        139.        
+ 1.02        0.09        0.01        0.0253      138.        139.        
+ 0.93        0.09        0.01        0.0253      138.        139.        
+ 0.86        0.12        0.01        0.0253      138.        139.        
+ 0.77        0.1         0.01        0.0253      138.        139.        
+ 1.9         0.24        0.01        0.0253      142.        143.        
+ 1.57        0.16        0.01        0.0253      142.        143.        
+ 1.45        0.16        0.01        0.0253      142.        143.        
+ 1.27        0.12        0.01        0.0253      142.        143.        
+ 1.15        0.14        0.01        0.0253      142.        143.        
+ 0.98        0.09        0.01        0.0253      142.        143.        
+ 0.89        0.1         0.01        0.0253      142.        143.        
+ 0.82        0.1         0.01        0.0253      142.        143.        
+ 0.75        0.12        0.01        0.0253      142.        143.        
+ 1.77        0.21        0.01        0.0253      146.        147.        
+ 1.63        0.19        0.01        0.0253      146.        147.        
+ 1.42        0.14        0.01        0.0253      146.        147.        
+ 1.23        0.14        0.01        0.0253      146.        147.        
+ 1.07        0.14        0.01        0.0253      146.        147.        
+ 0.95        0.14        0.01        0.0253      146.        147.        
+ 0.93        0.16        0.01        0.0253      146.        147.        
+ 0.84        0.12        0.01        0.0253      146.        147.        
+ 1.62        0.19        0.01        0.0253      150.        151.        
+ 1.6         0.16        0.01        0.0253      150.        151.        
+ 1.39        0.11        0.01        0.0253      150.        151.        
+ 1.25        0.14        0.01        0.0253      150.        151.        
+ 1.11        0.16        0.01        0.0253      150.        151.        
+ 1.04        0.21        0.01        0.0253      150.        151.        
+#ENDDATA        104         6
+#Legend         6           12
+#
+#COL-1         : Data        : variable    
+#+   Rank      : 0.1         : Y.Value     
+#+   Type      : 21          : 0.1         
+#+   Header    : DATA        : [Data: data]
+#+   Units     : PRT/FIS     : [particles per fission]
+#+   BasicUnits: PART/FIS    : Conv.Factor=1.
+#
+#COL-2         : Error       : variable    
+#+   Rank      : 0.911       : Y.Err+-     
+#+   Type      : 21          : 0.911       
+#+   Header    : DATA-ERR    : [Uncertainty: +-error]
+#+   Units     : PRT/FIS     : [particles per fission]
+#+   BasicUnits: PART/FIS    : Conv.Factor=1.
+#
+#COL-3         : Error       : constant    
+#+   Rank      : 0.955       : Y.pErr+-    
+#+   Type      : 21          : 0.955       
+#+   Header    : ERR-DIG     : [Uncertainty: +-partial error]
+#+   Units     : PRT/FIS     : [particles per fission]
+#+   BasicUnits: PART/FIS    : Conv.Factor=1.
+#
+#COL-4         : Data        : constant    
+#+   Rank      : 1.1         : X1.Value    
+#+   Type      : 43          : 2.1         
+#+   Header    : EN-DUMMY    : [Incident energy: spectrum energy]
+#+   Units     : EV          : [electron-Volts]
+#
+#COL-5         : Data        : variable    
+#+   Rank      : 2.2         : X2.Min      
+#+   Type      : 92          : 7.2         
+#+   Header    : MASS-MIN    : [Isotope/particle identification: mass] Given:[Minimum] Product mass
+#+   Units     : NO-DIM      : [no Dimensions]
+#
+#COL-6         : Data        : variable    
+#+   Rank      : 2.3         : X2.Max      
+#+   Type      : 92          : 7.3         
+#+   Header    : MASS-MAX    : [Isotope/particle identification: mass] Given:[Maximum] Product mass
+#+   Units     : NO-DIM      : [no Dimensions]
+#
+#ENDDATASET     33035002 
+#=============================================================================
+#DATASET        41397007 
+#NOW            2016/08/26:09:39:59
+#SUBENT         41397007   20131124
+#ENTRY          41397      20131124
+#AUTHOR1        V.F.Apalin+
+#YEAR           1965
+#X4REF1         J,NP,71,(3),553,196509
+#REFERENCE1     Jour: Nuclear Physics, Vol.71, Issue.3, p.553 (1965)
+#REACTION       92-U-235(N,F)MASS,PR,NU,,MXW
+#D4REAC         R0#
+#C4Reaction     (N,F)MASS,PR,NU,,MXW
+#ReactionType   NU
+#Quantity       Prompt neutron yield (nu-bar)
+#IndVarFamCode  [0 2    7   ]
+#ExpectedUnits  [PART/FIS]
+#xVariables     2
+#+              Y = Y(X1,X2)
+#COLUMNS        6
+#HEADER         7           6           12
+!DATA        ERR-S       ERR-DIG     EN-DUMMY    MASS        MASS-ERR-D  
+!PRT/FIS     PRT/FIS     PRT/FIS     EV          NO-DIM      NO-DIM      
+!Y.Value     Y.sErr+-    Y.pErr+-    X1.Value    X2.Value    X2.Err+-    
+!0.1         0.944       0.955       1.1         2.1         2.911       
+!variable    variable    const       const       variable    const       
+!1.0         1.0         1.0         1.0         1.0         1.0         
+!PART/FIS    PART/FIS    PART/FIS    EV          NO-DIM      NO-DIM      
+#DATA           30          6           12
+ 4.242       0.6304      0.0106      0.0253      119.24      0.0985      
+ 3.6267      0.52006     0.0106      0.0253      120.9       0.0985      
+ 4.5242      0.45704     0.0106      0.0253      123.07      0.0985      
+ 3.5071      0.34673     0.0106      0.0253      124.73      0.0985      
+ 3.8768      0.26005     0.0106      0.0253      126.41      0.0985      
+ 2.8519      0.11819     0.0106      0.0253      127.78      0.0985      
+ 2.623       0.07094     0.0106      0.0253      128.88      0.0985      
+ 2.2127                  0.0106      0.0253      130.1       0.0985      
+ 1.9286                  0.0106      0.0253      131.32      0.0985      
+ 1.9045                  0.0106      0.0253      132.62      0.0985      
+ 1.9118                  0.0106      0.0253      134.09      0.0985      
+ 2.1162                  0.0106      0.0253      135.48      0.0985      
+ 2.2733                  0.0106      0.0253      136.74      0.0985      
+ 2.3516                  0.0106      0.0253      138.21      0.0985      
+ 2.4614                  0.0106      0.0253      139.47      0.0985      
+ 2.6658                  0.0106      0.0253      140.86      0.0985      
+ 2.5865                  0.0106      0.0253      142.16      0.0985      
+ 2.6255                  0.0106      0.0253      143.35      0.0985      
+ 2.6486                  0.0106      0.0253      144.73      0.0985      
+ 2.7979                  0.0106      0.0253      145.91      0.0985      
+ 2.821                   0.0106      0.0253      147.3       0.0985      
+ 3.0333                  0.0106      0.0253      148.57      0.0985      
+ 3.1038      0.07882     0.0106      0.0253      149.75      0.0985      
+ 3.2768      0.11034     0.0106      0.0253      150.85      0.0985      
+ 3.5049      0.11034     0.0106      0.0253      152.03      0.0985      
+ 3.5599      0.14974     0.0106      0.0253      152.4       0.0985      
+ 3.6542      0.22853     0.0106      0.0253      153.14      0.0985      
+ 4.1976      0.28369     0.0106      0.0253      153.92      0.0985      
+ 3.7006      0.47281     0.0106      0.0253      155.46      0.0985      
+ 3.6764      0.56737     0.0106      0.0253      156.97      0.0985      
+#ENDDATA        30          6
+#Legend         6           12
+#
+#COL-1         : Data        : variable    
+#+   Rank      : 0.1         : Y.Value     
+#+   Type      : 21          : 0.1         
+#+   Header    : DATA        : [Data: data]
+#+   Units     : PRT/FIS     : [particles per fission]
+#+   BasicUnits: PART/FIS    : Conv.Factor=1.
+#
+#COL-2         : Error       : variable    
+#+   Rank      : 0.944       : Y.sErr+-    
+#+   Type      : 21          : 0.944       
+#+   Header    : ERR-S       : [Uncertainty: +-statistical error]
+#+   Units     : PRT/FIS     : [particles per fission]
+#+   BasicUnits: PART/FIS    : Conv.Factor=1.
+#
+#COL-3         : Error       : constant    
+#+   Rank      : 0.955       : Y.pErr+-    
+#+   Type      : 21          : 0.955       
+#+   Header    : ERR-DIG     : [Uncertainty: +-partial error]
+#+   Units     : PRT/FIS     : [particles per fission]
+#+   BasicUnits: PART/FIS    : Conv.Factor=1.
+#
+#COL-4         : Data        : constant    
+#+   Rank      : 1.1         : X1.Value    
+#+   Type      : 43          : 2.1         
+#+   Header    : EN-DUMMY    : [Incident energy: spectrum energy]
+#+   Units     : EV          : [electron-Volts]
+#
+#COL-5         : Data        : variable    
+#+   Rank      : 2.1         : X2.Value    
+#+   Type      : 92          : 7.1         
+#+   Header    : MASS        : [Isotope/particle identification: mass] Product mass
+#+   Units     : NO-DIM      : [no Dimensions]
+#
+#COL-6         : Error       : constant    
+#+   Rank      : 2.911       : X2.Err+-    
+#+   Type      : 92          : 7.911       
+#+   Header    : MASS-ERR-D  : [Uncertainty: +-error]
+#+   Units     : NO-DIM      : [no Dimensions]
+#
+#ENDDATASET     41397007 
+#=============================================================================
+#DATASET        41502005 
+#NOW            2016/08/26:09:39:59
+#SUBENT         41502005   20070831
+#ENTRY          41502      20141105
+#AUTHOR1        O.A.Batenkov+
+#YEAR           2004
+#X4REF1         C,2004SANTA,1,1003,2004
+#REFERENCE1     Conf: Conf.on Nucl.Data for Sci.and Techn., Santa Fe 2004, Vol.1, p.1003 (2004)
+#REACTION       92-U-235(N,F)MASS,PR,NU
+#D4REAC         R0#
+#C4Reaction     (N,F)MASS,PR,NU
+#ReactionType   NU
+#Quantity       Prompt neutron yield (nu-bar)
+#IndVarFamCode  [0 2    7   ]
+#ExpectedUnits  [PART/FIS]
+#xVariables     2
+#+              Y = Y(X1,X2)
+#COLUMNS        4
+#HEADER         7           4           12
+!DATA        ERR-S       EN-DUMMY    MASS        
+!PRT/FIS     PRT/FIS     EV          NO-DIM      
+!Y.Value     Y.sErr+-    X1.Value    X2.Value    
+!0.1         0.944       1.1         2.1         
+!variable    variable    const       variable    
+!1.0         1.0         1.0         1.0         
+!PART/FIS    PART/FIS    EV          NO-DIM      
+#DATA           21          4           12
+ 0.101       0.08        0.0253      81.         
+ 0.38461     0.06226     0.0253      85.         
+ 0.86921     0.07967     0.0253      89.         
+ 1.08352     0.05528     0.0253      93.         
+ 1.47253     0.05353     0.0253      97.         
+ 1.72239     0.0537      0.0253      101.        
+ 1.89325     0.0625      0.0253      105.        
+ 2.10817     0.08915     0.0253      109.        
+ 2.9817      0.21802     0.0253      113.        
+ 3.05699     0.55837     0.0253      117.        
+ 0.35537     0.0948      0.0253      121.        
+ 0.16124     0.02606     0.0253      125.        
+ 0.61656     0.04687     0.0253      129.        
+ 0.77552     0.0409      0.0253      133.        
+ 0.92802     0.03875     0.0253      137.        
+ 1.18468     0.04419     0.0253      141.        
+ 1.3347      0.05932     0.0253      145.        
+ 1.52529     0.09784     0.0253      149.        
+ 2.21477     0.25219     0.0253      153.        
+ 1.82127     0.42385     0.0253      157.        
+ 1.488       0.824       0.0253      161.        
+#ENDDATA        21          4
+#Legend         4           12
+#
+#COL-1         : Data        : variable    
+#+   Rank      : 0.1         : Y.Value     
+#+   Type      : 21          : 0.1         
+#+   Header    : DATA        : [Data: data]
+#+   Units     : PRT/FIS     : [particles per fission]
+#+   BasicUnits: PART/FIS    : Conv.Factor=1.
+#
+#COL-2         : Error       : variable    
+#+   Rank      : 0.944       : Y.sErr+-    
+#+   Type      : 21          : 0.944       
+#+   Header    : ERR-S       : [Uncertainty: +-statistical error]
+#+   Units     : PRT/FIS     : [particles per fission]
+#+   BasicUnits: PART/FIS    : Conv.Factor=1.
+#
+#COL-3         : Data        : constant    
+#+   Rank      : 1.1         : X1.Value    
+#+   Type      : 43          : 2.1         
+#+   Header    : EN-DUMMY    : [Incident energy: spectrum energy]
+#+   Units     : EV          : [electron-Volts]
+#
+#COL-4         : Data        : variable    
+#+   Rank      : 2.1         : X2.Value    
+#+   Type      : 92          : 7.1         
+#+   Header    : MASS        : [Isotope/particle identification: mass] Product mass
+#+   Units     : NO-DIM      : [no Dimensions]
+#
+#ENDDATASET     41502005 
+#=============================================================================
+#DATASET        41516013 
+#NOW            2016/08/26:09:39:59
+#SUBENT         41516013   20141111
+#ENTRY          41516      20141111
+#AUTHOR1        A.S.Vorobyev+
+#YEAR           2010
+#X4REF1         S,ISINN-17,60,2010
+#REFERENCE1     Conf: Int.Sem.on Interactions of Neutrons with Nuclei, No.17, p.60 (2010)
+#REACTION       92-U-235(N,F)MASS,PR,NU
+#D4REAC         R0#
+#C4Reaction     (N,F)MASS,PR,NU
+#ReactionType   NU
+#Quantity       Prompt neutron yield (nu-bar)
+#IndVarFamCode  [0 2    7   ]
+#ExpectedUnits  [PART/FIS]
+#xVariables     2
+#+              Y = Y(X1,X2)
+#COLUMNS        4
+#HEADER         7           4           12
+!DATA        DATA-ERR    EN          MASS        
+!PRT/FIS     PRT/FIS     EV          NO-DIM      
+!Y.Value     Y.Err+-     X1.Value    X2.Value    
+!0.1         0.911       1.1         2.1         
+!variable    variable    const       variable    
+!1.0         1.0         1.0         1.0         
+!PART/FIS    PART/FIS    EV          NO-DIM      
+#DATA           49          4           12
+ 3.645       0.244       0.0363      118.        
+ 3.285       0.234       0.0363      119.        
+ 3.5         0.231       0.0363      120.        
+ 2.861       0.179       0.0363      121.        
+ 2.517       0.141       0.0363      122.        
+ 2.716       0.125       0.0363      123.        
+ 2.748       0.107       0.0363      124.        
+ 2.487       0.082       0.0363      125.        
+ 2.475       0.069       0.0363      126.        
+ 2.412       0.058       0.0363      127.        
+ 2.248       0.047       0.0363      128.        
+ 2.248       0.041       0.0363      129.        
+ 2.253       0.037       0.0363      130.        
+ 2.226       0.033       0.0363      131.        
+ 2.229       0.03        0.0363      132.        
+ 2.221       0.028       0.0363      133.        
+ 2.248       0.027       0.0363      134.        
+ 2.262       0.026       0.0363      135.        
+ 2.242       0.025       0.0363      136.        
+ 2.298       0.024       0.0363      137.        
+ 2.322       0.024       0.0363      138.        
+ 2.384       0.025       0.0363      139.        
+ 2.41        0.025       0.0363      140.        
+ 2.491       0.026       0.0363      141.        
+ 2.525       0.027       0.0363      142.        
+ 2.455       0.027       0.0363      143.        
+ 2.495       0.028       0.0363      144.        
+ 2.516       0.03        0.0363      145.        
+ 2.538       0.032       0.0363      146.        
+ 2.538       0.035       0.0363      147.        
+ 2.539       0.038       0.0363      148.        
+ 2.567       0.042       0.0363      149.        
+ 2.598       0.049       0.0363      150.        
+ 2.641       0.056       0.0363      151.        
+ 2.669       0.065       0.0363      152.        
+ 2.609       0.074       0.0363      153.        
+ 2.683       0.088       0.0363      154.        
+ 2.568       0.1         0.0363      155.        
+ 2.707       0.129       0.0363      156.        
+ 3.07        0.167       0.0363      157.        
+ 2.744       0.174       0.0363      158.        
+ 2.386       0.2         0.0363      159.        
+ 2.652       0.272       0.0363      160.        
+ 2.464       0.305       0.0363      161.        
+ 2.481       0.377       0.0363      162.        
+ 1.187       0.231       0.0363      163.        
+ 2.179       0.585       0.0363      164.        
+ 1.459       0.413       0.0363      165.        
+ 0.923       0.373       0.0363      166.        
+#ENDDATA        49          4
+#Legend         4           12
+#
+#COL-1         : Data        : variable    
+#+   Rank      : 0.1         : Y.Value     
+#+   Type      : 21          : 0.1         
+#+   Header    : DATA        : [Data: data]
+#+   Units     : PRT/FIS     : [particles per fission]
+#+   BasicUnits: PART/FIS    : Conv.Factor=1.
+#
+#COL-2         : Error       : variable    
+#+   Rank      : 0.911       : Y.Err+-     
+#+   Type      : 21          : 0.911       
+#+   Header    : DATA-ERR    : [Uncertainty: +-error]
+#+   Units     : PRT/FIS     : [particles per fission]
+#+   BasicUnits: PART/FIS    : Conv.Factor=1.
+#
+#COL-3         : Data        : constant    
+#+   Rank      : 1.1         : X1.Value    
+#+   Type      : 41          : 2.1         
+#+   Header    : EN          : [Incident energy: energy]
+#+   Units     : EV          : [electron-Volts]
+#
+#COL-4         : Data        : variable    
+#+   Rank      : 2.1         : X2.Value    
+#+   Type      : 92          : 7.1         
+#+   Header    : MASS        : [Isotope/particle identification: mass] Product mass
+#+   Units     : NO-DIM      : [no Dimensions]
+#
+#ENDDATASET     41516013 

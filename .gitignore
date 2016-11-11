@@ -1,0 +1,17 @@
+# ignore all plot files
+plots/**/*.*
+
+# ignore tmp ~ files
+*~
+
+# ignore root files (input data)
+*.root
+
+# ignore output files
+total*-TALYS*
+
+# ignore XS folder (it's a link = file)
+XS
+
+# ignore raw/ folder
+raw/

@@ -1,0 +1,13 @@
+[H[2JAnalysing file  in root...
+file U235_NN71-165.dat does not exist! 
+creating new graph!
+printint out file
+moving file TALYS_OUTPUT-nubar-GEFlmf-GEFTEX to TALYS_OUTPUT-nubar-GEFlmf-GEFTEX_old
+-----------------------------------------------------------------------
+The results have been printed to file TALYS_OUTPUT-nubar-GEFlmf-GEFTEX
+-----------------------------------------------------------------------
+ 
+(double)0.00000000000000000e+00
+tot = 0
+avgtot = 0
+avg = -nan
